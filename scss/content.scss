@@ -1,0 +1,65 @@
+#content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .dialog{
+        display: none;
+        width: 500px;
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 30px 60px;
+        animation: 1.5s ease 0s 1 fadeIn;
+        background-color: var(--bg1);
+        opacity: 1;
+
+        h2{
+            width: 100%;
+            text-align: center;
+            margin: 20px 0 50px 0;
+            color: var(--txt1);
+        }
+        
+        input{
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 100px;
+            border-width: 0;
+            padding: 15px 20px;
+            font-size: 17pt;
+            margin-bottom: 20px;
+            outline: 0;
+        }
+        
+        input:focus {outline:none;}
+        input::-moz-focus-inner {border:0;}
+
+        input[type='button']{
+            cursor: pointer;
+            background-color: var(--bg2);
+            color: var(--txt2);
+            opacity: 0.9;
+            transition: 0.3s;
+        }
+
+        input[type='button']:hover{
+            opacity: 1;
+        }
+    }
+
+    .active{
+        display: block !important;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

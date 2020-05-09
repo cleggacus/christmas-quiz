@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "rollup -c && node-sass scss/index.scss bundle.min.css --output-style compressed"
+  },
+  "name": "christmas-quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "rollup": "^1.27.8",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.3"
+  }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+@import 'content';
+
+body, html {
+    margin: 0;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    
+    audio{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    #back-visual{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+:root{
+    --txt1: #2f274e; 
+    --txt2: #d2d2f3; 
+    --bg1: #d2d2f3;
+    --bg2: #2f274e;
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Where did the christmas tree originate",
+        "options": ["France", "England", "Germany", "Poland"],
+        "answer": 2
+    },{
+        "question": "The birth of Jesus is recounted in which two books of the New Testament, Luke and which other",
+        "options": ["Mark", "Mathew", "John", "None of the above"],
+        "answer": 2
+    },{
+        "question": "From which country does the Christmas drink Eggnog originate",
+        "options": ["France", "England", "Germany", "Poland"],
+        "answer": 1
+    },{
+        "question": "The Christmas movie 'Miracle on 34th Street' is set in New York",
+        "options": ["True", "False"],
+        "answer": 0
+    },{
+        "question": "How many reindeers are named in the Christmas poem 'A Visit from St. Nicholas' also known as 'Twas the Night Before Christmas'",
+        "options": ["6", "7", "8", "9"],
+        "answer": 2
+    },{
+        "question": "The Twelve Days of Christmas traditionally finish on which date",
+        "options": ["January 5th", "December 1st", "December 25th", "December 12th"],
+        "answer": 0
+    },{
+        "question": "In the song ‘Twelve Days of Christmas’, how many ladies were dancing",
+        "answer": ["9", "nine"]
+    },{
+        "question": "What is the name of the elf played by Will Ferrell in the 2003 film Elf",
+        "options": ["Shiney", "Bashey", "Doppy", "Buddy"],
+        "answer": 3
+    },{
+        "question": "Who plays Scott Calvin, the man who causes Santa Claus to fall from his roof, in the 1994 Christmas movie The Santa Clause",
+        "options": ["Tim Allen", "Tom Hanks", "Tom Cruise", "None of the above"],
+        "answer": 0
+    },{
+        "question": "Alphabetically, which of Santa's reindeer comes first",
+        "answer": "Blitzen"
+    }
+]
